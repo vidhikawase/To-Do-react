@@ -50,7 +50,7 @@ function Home() {
             }
 
             const newList = todoList.filter((item, i) => {
-                if (i != index) {
+                if (i !== index) {
                     return true
                 }
 
